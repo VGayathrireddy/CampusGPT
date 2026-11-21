@@ -1,0 +1,32 @@
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# Node
+node_modules/
+dist/
+
+# ChromaDB
+chroma_db/
+chroma_data/
+*.sqlite3
+
+# Models and datasets
+*.gguf
+*.bin
+*.safetensors
+models/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
